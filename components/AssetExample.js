@@ -37,7 +37,7 @@ export default function AssetExample() {
         </Text>
         <Image
           style={styles.logo}
-          source={require("../assets/hideandseek.png")}
+          source={require("../assets/snack-icon.png")}
         />
       </View>
       <View style={{ flex: 1, padding: 24 }}>
