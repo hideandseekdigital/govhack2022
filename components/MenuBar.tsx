@@ -19,7 +19,8 @@ const MenuBar: React.FC = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/">
+                    <Link href="/collections">
+                    <a>
                         <div>
                             <Image src="/folder.svg" alt="Map icon" layout='fill' />
                         </div>
@@ -27,6 +28,7 @@ const MenuBar: React.FC = () => {
                             Collection
                         </div>
                     </a>
+                    </Link>
                 </li>
                 <li>
                     <a href="/">
