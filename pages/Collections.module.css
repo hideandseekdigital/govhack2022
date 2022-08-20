@@ -1,0 +1,73 @@
+.collections {
+@apply p-5 mt-5;
+}
+
+.collections h2 {
+@apply text-2xl font-bold;
+}
+
+.collections ul {
+@apply mt-8 flex gap-8 flex-wrap;
+}
+
+.collections ul li {
+@apply w-36 p-4;
+max-height:200px;
+min-height:200px;
+background: #8AC3F7;
+border-radius: 24px
+}
+
+.collections ul li.green {
+background: #84D4C1;
+}
+
+.collections ul li.yellow {
+background: #FFDD81;}
+
+.collections ul li.purple {
+background: #A386AE;
+}
+
+.collections ul li.grey {
+background: #98A2AA;
+}
+
+.collections ul li.red {
+background: #FD9899;
+}
+
+.image {
+height:70px;
+width:100%;
+position:relative;
+}
+
+.info {
+    @apply flex justify-center flex-wrap;
+}
+
+
+.info h3 {
+@apply font-bold text-center mt-4;
+
+}
+
+.info p {
+@apply text-center;
+background: #303A44;
+border-radius: 16px;
+color:white;
+display:inline-block;
+padding:8px;
+font-weight:bold;
+font-size:12px;
+}
+
+.dropShadow {
+box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+    height: 19px;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
