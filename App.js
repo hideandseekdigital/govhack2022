@@ -12,7 +12,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.paragraph}>
-        Bindii Bindii Bindii Bindii
+        Bindii App
       </Text>
       <Card>
         <AssetExample />
