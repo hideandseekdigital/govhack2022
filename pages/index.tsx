@@ -12,14 +12,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
         <iframe
           src="https://my.atlistmaps.com/map/63473e89-4241-42d7-aad4-415857cd5b45?share=true"
           allow="geolocation"
           width="100%"
-          height="400px"
+          height="800px"
           frameborder="0"
           scrolling="no"
           allowfullscreen
