@@ -1,0 +1,20 @@
+.menuBar {
+    @apply bg-white;
+    @apply h-16 text-center m-auto fixed bottom-0;
+}
+
+.menuBar ul {
+    @apply list-none flex justify-center gap-3 p-2;
+}
+
+.menuBar ul a {
+    @apply text-gray-600;
+    @apply hover:text-gray-900;
+    @apply font-bold flex flex-wrap justify-center;
+}
+
+.menuBar ul li div:first-child {
+    @apply w-8;
+    @apply h-8;
+    @apply relative;
+    }
