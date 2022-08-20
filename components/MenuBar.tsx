@@ -1,6 +1,8 @@
 
 import Image from 'next/image'
 import styles from './MenuBar.module.css'
+import Link from 'next/link';
+
 
 const MenuBar: React.FC = () => {
     return (
@@ -47,7 +49,8 @@ const MenuBar: React.FC = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/">
+                    <Link href="/profile">
+                        <a>
                         <div>
                             <Image src="/person.svg" alt="Map icon" layout='fill' />
                         </div>
@@ -55,6 +58,7 @@ const MenuBar: React.FC = () => {
                             Profile
                         </div>
                     </a>
+                    </Link>
                 </li>
             </ul>
         </div>

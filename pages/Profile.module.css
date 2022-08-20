@@ -1,0 +1,85 @@
+.heroBanner {
+    @apply h-44 relative;
+    background:#899AF7;
+}
+
+.profile {
+@apply text-center;
+@apply -mt-14;
+}
+
+.profileInfo h2 {
+@apply font-bold text-2xl;
+    color:#576FF4;
+}
+
+.profileInfo p {
+@apply font-bold text-sm;
+    color:#576FF4;
+}
+
+.profileInfo ul {
+@apply flex justify-center text-xs mt-3;
+}
+
+.profileInfo ul li:first-child {
+@apply mr-2;
+}
+
+.profileInfo ul li:first-child:after {
+content: ".";
+@apply ml-2;
+}
+
+
+.profileStats h3 {
+@apply text-center mt-10 font-bold;
+}
+
+.profileStats ul {
+@apply flex  p-6 flex-wrap gap-4;
+}
+
+.profileStats ul li {
+@apply flex justify-center flex-wrap w-40;
+border-radius: 24px;
+text-align: center;
+
+}
+
+.profileStats ul li div {
+background: #84D4C1;
+border-radius: 24px;
+padding:16px;
+width:100%;
+text-transform: uppercase;
+font-weight:bold;
+color: #303A44;
+
+font-size:12px;
+}
+
+.profileStats ul li div.purple {
+background: #A386AE
+}
+
+.profileStats ul li div.red {
+background: #FD9899;
+}
+
+.profileStats ul li div.yellow {
+background: #FFDD81;
+}
+
+.profileStats ul li div.blue {
+background: #8AC3F7;
+}
+
+
+.dropShadow {
+box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+    height: 19px;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
