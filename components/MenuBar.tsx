@@ -9,7 +9,7 @@ const MenuBar: React.FC = () => {
         <div className={styles.menuBar}>
             <ul>
                 <li>
-                    <Link href="/map">
+                    <Link href="/">
                         <a>
                             <div>
                                 <Image src="/map.svg" alt="Map icon" layout='fill' />
