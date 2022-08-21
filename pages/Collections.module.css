@@ -6,11 +6,11 @@
 @apply text-2xl font-bold;
 }
 
-.collections ul {
+.collections > ul {
 @apply mt-8 flex gap-8 flex-wrap;
 }
 
-.collections ul li {
+.collections > ul li {
 @apply w-32 p-4;
 max-height:200px;
 min-height:200px;
@@ -18,22 +18,22 @@ background: #8AC3F7;
 border-radius: 24px
 }
 
-.collections ul li.green {
+.collections > ul li.green {
 background: #84D4C1;
 }
 
-.collections ul li.yellow {
+.collections > ul li.yellow {
 background: #FFDD81;}
 
-.collections ul li.purple {
+.collections > ul li.purple {
 background: #A386AE;
 }
 
-.collections ul li.grey {
+.collections > ul li.grey {
 background: #98A2AA;
 }
 
-.collections ul li.red {
+.collections > ul li.red {
 background: #FD9899;
 }
 
