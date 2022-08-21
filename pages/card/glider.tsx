@@ -44,14 +44,7 @@ const GliderPage: React.FC = () => {
             </div>
 
             <div className={styles.animalInfo}>
-
-                The greater gliders are three species of large gliding marsupials in the genus Petauroides, all of which are found in eastern Australia. Until 2020 they were considered to be one species, Petauroides volans. In 2020 morphological and genetic differences, obtained using diversity arrays technology, showed there were three species subsumed under this one name. The two new species were named Petauroides armillatus and Petauroides minor.[2]
-
-                These species are not closely related to the Petaurus group of gliding marsupials but instead to the lemur-like ringtail possum, Hemibelideus lemuroides, with which it shares the subfamily Hemibelideinae.[1]
-
-                The greater gliders are nocturnal and are solitary herbivores feeding almost exclusively on Eucalyptus leaves and buds.[3] Like their relative, the lemur-like ringtail, the southern greater glider is found in two forms: a sooty brown form and a grey-to-white form.[3] The central greater glider is instead silvery brown, while the northern greater glider is brownish-gray.[2]
-
-                The greater gliders are found in eucalypt forests from Mossman, Queensland, to Daylesford, Victoria.[3]
+                The Greater Glider is Australia’s largest gliding mammal. Greater Gliders have thick, dark grey-brown fur on their back and creamy white fur on their under-side, and can be found in different dark and light-coloured morphs. They have a long, furry prehensile tail and large furry ears.
             </div>
 
 

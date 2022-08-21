@@ -44,9 +44,7 @@ const LizardPage: React.FC = () => {
             </div>
 
             <div className={styles.animalInfo}>
-                Tympanocryptis pinguicolla, also known as Victorian grassland earless dragon, is a species of lizard in the family Agamidae. It is one of a documented species of a relatively small dragon belonging to the genus Tympanocryptis.
-
-                Numerous other species of Tympanocryptis across Australia were formerly classified under T. pinguicolla, but all of these have ultimately been split due to scientific studies finding them to be distinct species. Two populations from the Darling Downs were found in a 2014 study to actually be two new, distinct species, T. condaminensis and T. wilsoni.[2] A 2019 study found a population near Canberra to actually represent an isolated eastern population of T. lineata, while two populations near Cooma and Bathurst respectively represented two new species, T. osbornei and T. mccartneyi. This has left the Victorian population to be the only representative member of the species.[3]
+                The little dragon is light brown with three white stripes running down and a number of darker bands running across its body. It is just 15cm from head to tail when fully grown. Unlike most other lizards it doesnt have external ear openings. Its an energetic little animal for its size and adults can move over 110 metres in a day. The Grassland Earless Dragon was once widespread throughout western Victoria, NSW and the ACT.
             </div>
 
 

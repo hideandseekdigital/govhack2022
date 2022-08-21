@@ -44,9 +44,7 @@ const MothPage: React.FC = () => {
             </div>
 
             <div className={styles.animalInfo}>
-                It is a medium-sized moth with clubbed antennae. The clubbed antennae are a notable feature of Synemon plana; most other moths have brushy antennae. The golden sun moth appears on the list of Australian critically endangered fauna. The golden sun moth is synonymous with Austrodanthonia species of grasses and is almost confined to grasslands which are home to these grass species. At least a 40% cover of Austrodanthonia species is optimal for the species.[1]
-
-                Male Synemon plana are dull in colour, the forewings consisting of dark brown, patterned with pale grey and the hind wings are brown with darker brown patches. Female Synemon plana are brighter in colour with the forewings of brown and grey patterns, the forewings are a bright golden brown colouring with dark brown patches on the outer margin of the hindwings. This golden colouring gives Synemon plana its common name, the golden sun moth. Female Synemon plana are generally flightless, with small hindwings in comparison to the male.
+                The females rarely fly, males can be seen flying in a zig-zag pattern in the warmest part of the day looking for the females. Females forewings are dark grey with lighter grey patterning; hind wings are reduced and are bright orange with black spots along the edges. Males forewings are dark brown with lighter grey patterning, hind wings bronze to brown with dark brown patches. Both males and females have clubbed antennae.
             </div>
 
 
