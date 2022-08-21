@@ -42,6 +42,8 @@ body {
 
 .button-primary {
   @apply bg-blue-900 text-white;
+  display: inline-block;
+  margin-right:10px;
   border-radius: 5px;
   padding: 10px;
 }

@@ -110,16 +110,20 @@ const CollectPage: React.FC = () => {
             {hasWon && <div className={styles.startGame}>
                 <h2>Hooraaay!</h2>
                 <p>You got it! You just added a Golden Sun Moth hatchable to your collection.</p>
+                <div className={`button button-primary`}>
                 <Link href="/card/moth" className={`button button-primary`}>
-                    <a>
+                    <a className={`button button-primary`}>
                         Learn
                     </a>
                 </Link>
+                </div>
+                <div className={`button button-primary`}>
                 <Link href="/collections" className={`button button-primary`}>
-                    <a>
+                    <a className={`button button-primary`}>
                         Collection
                     </a>
                 </Link>
+                </div>
             </div>}
         </div>
     );
