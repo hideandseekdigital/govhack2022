@@ -7,7 +7,8 @@
 }
 
 .collections > ul {
-@apply mt-8 flex gap-8 flex-wrap;
+@apply mt-8 flex flex-wrap;
+
 }
 
 .collections > ul li {
@@ -15,7 +16,9 @@
 max-height:200px;
 min-height:200px;
 background: #8AC3F7;
-border-radius: 24px
+border-radius: 24px;
+margin-right: 12px;
+margin-bottom: 12px;
 }
 
 .collections > ul li.green {

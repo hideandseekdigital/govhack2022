@@ -115,7 +115,7 @@ const CollectPage: React.FC = () => {
                         Learn
                     </a>
                 </Link>
-                <Link href="/collection" className={`button button-primary`}>
+                <Link href="/collections" className={`button button-primary`}>
                     <a>
                         Collection
                     </a>
