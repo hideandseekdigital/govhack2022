@@ -20,27 +20,22 @@ a {
 }
 
 body {
-  margin: 18px auto 4px;
+  /* margin: 18px auto 4px;
   width: 460px;
   background: url('../assets/frame.png') no-repeat center;
   background-size: contain;
-  position: relative;
+  position: relative; */
 }
 
 #__next {
-  position: relative;
+  /* position: relative;
   overflow: scroll;
   border-top-left-radius: 44px;
   border-top-right-radius: 44px;
   border-bottom-left-radius: 76px;
-  border-bottom-right-radius: 76px;
-  left: 50px;
+  border-bottom-right-radius: 76px; */
+  /* left: 50px;
   width: 360px;
-  height: 800px;
-  margin-right: 0;
-}
-
-  #__next::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
+  height: 800px; */
+  /* margin-right: 0; */
 }

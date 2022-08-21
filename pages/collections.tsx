@@ -100,7 +100,7 @@ const CollectionsPage: React.FC = () => {
           </li>
         </ul>
         <div className={styles.dropShadow}></div>
-        <MenuBar />
+        {/* <MenuBar /> */}
       </div>
     );
 };

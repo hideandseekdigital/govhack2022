@@ -66,7 +66,7 @@ const ProfilePage: React.FC = () => {
           </ul>
         </div>
         <div className={styles.dropShadow}></div>
-        <MenuBar />
+        {/* <MenuBar /> */}
       </div>
     );
 };
