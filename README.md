@@ -1,35 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+What is Bindii
+=======
 
-## Getting Started
+------<br>
 
-First, run the development server:
+![Bindii] (https://a.storyblok.com/f/149050/1920x1080/a921d7747e/bindi_cover.jpg)
+![Bindii] (https://a.storyblok.com/f/149050/1920x1080/8614efbf6e/cover.jpg)
 
-```bash
-npm i --legacy-peer-deps
-npm run dev
-# or
-yarn dev
-```
+------<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Bindii is a fun and interactive mobile app that teaches kids about our native flora and fauna while they explore outside.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Kids can find, identify and collect native animal and plant characters using an augmented reality experience (think Pokemon Go). Kids will learn about the character, where they live and how to find them. When kids then find a real world equivalent of our characters and upload a photo, they will receive points and bonuses towards rewards in the app.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Fill up an interactive botanical zoo and watch it flourish.
+Track progress against friends and compete for bounties on unique flora and fauna (including dangerous grasses and fruitflies)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+We have a passion for the conservation and perpetuation of Australia’s wildlife. We value and respect all flora and fauna within our diverse biomes. We understand and value each animal and plants contribution to these environments. 
 
-## Learn More
+------<br>
 
-To learn more about Next.js, take a look at the following resources:
+![Bindii](https://a.storyblok.com/f/149050/400x794/b168e63258/ezgif-4-84f093b5be.gif)![Bindii](https://a.storyblok.com/f/149050/400x794/ec22bcbf37/ezgif-4-da3369609a.gif)![Bindii](https://a.storyblok.com/f/149050/400x794/d6d1f31853/ezgif-4-7ed96f4d3c.gif)![Bindii](https://a.storyblok.com/f/149050/400x794/642d7fcc57/ezgif-4-f0aef81f77.gif)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+------<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Bindii](https://a.storyblok.com/f/149050/3840x2160/3acaef4238/data.jpg)
 
-## Deploy on Vercel
+------<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Our Mission
+-----------
+  
+Our mission is to educate the younger generations of Australians, helping preserve the rich biodiversity of Australia’s wildlife. We seek to enrich the lives of our future generations and that of the ‘bush’ through informed exploration. 
+By giving the community, especially those in their formative years, ownership of Australia’s environmental future we aim to create a bond between human and bushland. 
+Through the efforts of the community we aim to compile a repository of data that will in turn allow our government to implement effective strategies to safeguard our environment. 
+
+Our core values
+-----------
+  
+We have a passion for the conservation and perpetuation of Australia’s wildlife. We value and respect all flora and fauna within our diverse biomes. We understand and value each animal and plants contribution to these environments. 
+ 
+------<br>
+
+![Bindii](https://a.storyblok.com/f/149050/1920x948/4f1fae9c0f/thank-you-1.jpg)
