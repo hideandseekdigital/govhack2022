@@ -1,0 +1,153 @@
+.heroBanner {
+  @apply h-44 relative;
+  background: #58a9f4;
+  z-index: -1;
+}
+
+.green {
+  background: #4fc1a6;
+}
+
+.purple {
+  background: #7C528C;
+}
+
+.yellow {
+  background: #FFCE4B;
+}
+
+
+.red {
+  background: #FC6C6D;
+}
+
+.profile {
+  @apply text-center;
+  @apply -mt-20;
+}
+
+.image.greenbox {
+  background: #84d4c1 !important;
+  /* Level Colours/Common */
+
+  border: 4px solid #4fc1a6 !important;
+}
+
+.image.purple {
+background: #A386AE!important;
+/* Level Colours/Epic */
+
+border: 4px solid #7C528C!important;
+}
+
+.image.yellow {
+background: #FFCE4B!important;
+/* Level Colours/Legendary Tint */
+
+border: 4px solid #FFDD81!important;
+}
+
+.image.red {
+background: #FD9899!important;
+/* Level Colours/Epic */
+
+border: 4px solid #FC6C6D!important;
+}
+
+
+.profile .image {
+  border: 4px solid #58a9f4;
+  background: #8ac3f7;
+  border-radius: 50%;
+  width: 184px;
+  height: 184px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.points.greenpoint {
+  /* Level Colours/Common */
+
+  background: #4fc1a6 !important;
+  /* Level Colours/Common Tint */
+
+  border: 4px solid #84d4c1 !important;
+}
+
+.points.purple {
+/* Level Colours/Epic */
+
+background: #7C528C;
+/* Level Colours/Epic Tint */
+
+border: 4px solid #A386AE;
+color:white;
+}
+
+.points.yellow {
+background: #FFCE4B!important;
+/* Level Colours/Legendary Tint */
+
+border: 4px solid #FFDD81!important;
+}
+
+.points.red {
+background: #FD9899!important;
+/* Level Colours/Epic */
+
+border: 4px solid #FC6C6D!important;
+}
+
+.points {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 30px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 57px;
+  left: 195px;
+  top: 87px;
+  font-weight: 700;
+  background: #58a9f4;
+  /* Level Colours/Rare Tint */
+
+  border: 4px solid #8ac3f7;
+  border-radius: 160px;
+}
+.profileInfo h2 {
+  @apply font-bold text-2xl;
+}
+
+.profileInfo p {
+  @apply font-bold text-sm;
+}
+
+.animalCard {
+  @apply mx-2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 48px;
+
+  background: #f3f3f3;
+  border-radius: 0px 0px 24px 24px;
+}
+
+.animalCardImage {
+  @apply mx-2;
+  height: 224.12px;
+  width: 96%;
+  border-radius: 24px 24px 0px 0px;
+  position: relative;
+}
+
+.animalInfo {
+  @apply mx-2 mt-8;
+}

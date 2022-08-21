@@ -11,7 +11,7 @@
 }
 
 .collections ul li {
-@apply w-36 p-4;
+@apply w-32 p-4;
 max-height:200px;
 min-height:200px;
 background: #8AC3F7;
@@ -62,12 +62,4 @@ display:inline-block;
 padding:8px;
 font-weight:bold;
 font-size:12px;
-}
-
-.dropShadow {
-box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
-    height: 19px;
-    width: 100%;
-    position: absolute;
-    bottom: 50px;
 }

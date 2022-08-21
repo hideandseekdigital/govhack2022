@@ -7,6 +7,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  color: #303A44;
 }
 
 a {
@@ -24,16 +25,18 @@ body {
   background: url('../assets/frame.png') no-repeat center;
   background-size: contain;
   position: relative;
-  overflow: hidden;
 }
 
 #__next {
   position: relative;
   overflow: scroll;
-  border-radius: 44px;
-  left: 50px;
-  width: 350px;
-  height: 760px;
+  border-top-left-radius: 44px;
+  border-top-right-radius: 44px;
+  border-bottom-left-radius: 52px;
+  border-bottom-right-radius: 52px;
+  left: 40px;
+  width: 368px;
+  height: 800px;
   margin-right: 0;
 }
 
