@@ -4,7 +4,8 @@ import MenuBar from "../components/MenuBar";
 
 const MapPage: React.FC = () => {
   return (
-    <div className={styles.mapframe}>
+    <div>
+      <div className={styles.loading}>loading...</div>
       <iframe
         src="https://my.atlistmaps.com/map/63473e89-4241-42d7-aad4-415857cd5b45?share=true"
         allow="geolocation"
@@ -13,6 +14,7 @@ const MapPage: React.FC = () => {
         frameborder="0"
         scrolling="no"
         allowfullscreen
+        className={styles.map}
       ></iframe>
       <MenuBar />
     </div>
