@@ -91,7 +91,7 @@ const CollectPage: React.FC = () => {
                 </div>
             }
 
-            {isActive &&
+            {isActive && !hasWon && !isFinished &&
                 <div className={styles.timer}>
                     <div>{seconds}</div>
                 </div>
@@ -110,12 +110,12 @@ const CollectPage: React.FC = () => {
             {hasWon && <div className={styles.startGame}>
                 <h2>Hooraaay!</h2>
                 <p>You got it! You just added a Golden Sun Moth hatchable to your collection.</p>
-                <Link href="/card/moth">
+                <Link href="/card/moth" className={`button button-primary`}>
                     <a>
                         Learn
                     </a>
                 </Link>
-                <Link href="/collection">
+                <Link href="/collection" className={`button button-primary`}>
                     <a>
                         Collection
                     </a>

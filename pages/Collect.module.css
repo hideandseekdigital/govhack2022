@@ -2,11 +2,9 @@
   animation-name: chug;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  position:absoulte;
-background: #FFCE4B!important;
-/* Level Colours/Legendary Tint */
-
-border: 4px solid #FFDD81;
+  position: absoulte;
+  background: #ffce4b;
+  border: 4px solid #ffdd81;
   border-radius: 50%;
   width: 184px;
   height: 184px;
@@ -15,9 +13,6 @@ border: 4px solid #FFDD81;
   justify-content: center;
   top: 100px;
 }
-
-
-
 
 @keyframes chug {
   0% {
@@ -32,12 +27,10 @@ border: 4px solid #FFDD81;
   100% {
     transform: translateX(30vw);
   }
-}ß
-
-
+}
 .capture {
   background-image: url("/capturebg.png");
-  height:100vh;
+  height: 100vh;
 }
 
 .startGame {
@@ -47,10 +40,8 @@ border: 4px solid #FFDD81;
 }
 
 .image {
-background: #FFCE4B!important;
-/* Level Colours/Legendary Tint */
-
-border: 4px solid #FFDD81;
+  background: #ffce4b;
+  border: 4px solid #ffdd81;
   border-radius: 50%;
   width: 184px;
   height: 184px;
@@ -58,6 +49,16 @@ border: 4px solid #FFDD81;
   display: flex;
   justify-content: center;
   @apply absolute m-auto;
-  margin-top:-180px;
-  margin-left:20%;
+  margin-top: -180px;
+  margin-left: 20%;
+}
+
+.timer {
+  background:black;
+  color:white;
+  padding: 10px;
+  border-radius: 5px;
+  width:20%;
+  text-align:center;
+  margin:auto;
 }
