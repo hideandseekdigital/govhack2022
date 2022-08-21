@@ -7,7 +7,7 @@
 }
 
 .collections > ul {
-@apply mt-8 flex flex-wrap;
+@apply mt-8 flex flex-wrap gap-6;
 
 }
 
@@ -17,8 +17,6 @@ max-height:200px;
 min-height:200px;
 background: #8AC3F7;
 border-radius: 24px;
-margin-right: 12px;
-margin-bottom: 12px;
 }
 
 .collections > ul li.green {
@@ -52,7 +50,7 @@ position:relative;
 
 
 .info h3 {
-@apply font-bold text-center mt-4;
+@apply font-bold text-sm text-center mt-4;
 
 }
 

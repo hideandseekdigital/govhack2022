@@ -30,7 +30,7 @@
 }
 .capture {
   background-image: url("/capturebg.png");
-  height: 100vh;
+  height: 100%;
 }
 
 .startGame {

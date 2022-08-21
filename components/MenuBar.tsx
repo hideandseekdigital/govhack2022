@@ -33,7 +33,7 @@ const MenuBar: React.FC = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/">
+                    <Link href="/collect">
                         <a>
                             <div>
                                 <Image src="/camera.svg" alt="Map icon" layout='fill' />
@@ -45,7 +45,7 @@ const MenuBar: React.FC = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/">
+                    <Link href="/ranking">
                         <a>
                             <div>
                                 <Image src="/star.svg" alt="Map icon" layout='fill' />

@@ -1,6 +1,7 @@
 import styles from './Collections.module.css'
 import Image from 'next/image'
 import MenuBar from "../components/MenuBar";
+import Link from 'next/link';
 
 
 const CollectionsPage: React.FC = () => {
@@ -9,7 +10,9 @@ const CollectionsPage: React.FC = () => {
         <h2>Collections</h2>
         <ul>
           <li className={styles.blue}>
+              <Link href="/card/glider">
             <div>
+
               <div className={styles.image}>
                 <Image
                   src="/animals/glider.svg"
@@ -22,9 +25,12 @@ const CollectionsPage: React.FC = () => {
                 <p>01</p>
               </div>
             </div>
+            </Link>
           </li>
           <li className={styles.green}>
+            <Link href="/card/kangaroo">
             <div>
+
               <div className={styles.image}>
                 <Image
                   src="/animals/kangaroo.svg"
@@ -37,8 +43,10 @@ const CollectionsPage: React.FC = () => {
                 <p>12</p>
               </div>
             </div>
+            </Link>
           </li>
           <li className={styles.yellow}>
+            <Link href="/card/moth">
             <div>
               <div className={styles.image}>
                 <Image
@@ -52,8 +60,10 @@ const CollectionsPage: React.FC = () => {
                 <p>03</p>
               </div>
             </div>
+            </Link>
           </li>
           <li className={styles.purple}>
+            <Link href="/card/lizard">
             <div>
               <div className={styles.image}>
                 <Image
@@ -67,6 +77,7 @@ const CollectionsPage: React.FC = () => {
                 <p>02</p>
               </div>
             </div>
+            </Link>
           </li>
           <li className={styles.grey}>
             <div>
@@ -84,6 +95,7 @@ const CollectionsPage: React.FC = () => {
             </div>
           </li>
           <li className={styles.red}>
+            <Link href="/card/spider">
             <div>
               <div className={styles.image}>
                 <Image
@@ -97,6 +109,7 @@ const CollectionsPage: React.FC = () => {
                 <p>03</p>
               </div>
             </div>
+            </Link>
           </li>
         </ul>
         <div className={styles.dropShadow}></div>

@@ -16,7 +16,7 @@ const MapPage: React.FC = () => {
         allowFullScreen
         className={styles.map}
       ></iframe>
-      <MenuBar />
+
     </div>
   );
 };
