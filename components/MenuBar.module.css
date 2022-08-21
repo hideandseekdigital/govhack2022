@@ -1,6 +1,6 @@
 .menuBar {
     @apply bg-white;
-    @apply h-16 text-center m-auto fixed bottom-0;
+    @apply h-16 text-center m-auto  bottom-0;
 }
 
 .menuBar ul {

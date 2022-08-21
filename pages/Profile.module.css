@@ -41,7 +41,7 @@ content: ".";
 }
 
 .profileStats ul li {
-@apply flex justify-center flex-wrap w-40;
+@apply flex justify-center flex-wrap w-32;
 border-radius: 24px;
 text-align: center;
 
@@ -76,10 +76,3 @@ background: #8AC3F7;
 }
 
 
-.dropShadow {
-box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
-    height: 19px;
-    width: 100%;
-    position: absolute;
-    bottom: 50px;
-}
