@@ -1,6 +1,7 @@
 import styles from './Collect.module.css'
 import Image from 'next/image'
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 
 const CollectPage: React.FC = () => {
@@ -18,6 +19,14 @@ const CollectPage: React.FC = () => {
     function reset() {
         setSeconds(0);
         setIsActive(false);
+    }
+
+    function winnerChickenDinner() {
+        setHasWon(true);
+        setSeconds(0);
+        setIsActive(true);
+        setIsFinished(false)
+
     }
 
     useEffect(() => {
@@ -60,17 +69,20 @@ const CollectPage: React.FC = () => {
 
 
     return (
-        <div>
-            {isActive &&
-                <div className={styles.creature}>
+        <div className={styles.capture}>
+            {isActive && !hasWon && !isFinished &&
+                <div className={styles.creature} onClick={winnerChickenDinner}>
+                    <div className={styles.imagePlay}>
                     <Image src="/animals/moth.svg" className='border-4 border-white' alt="Profile image" height={135} width={135} />
-
+                    </div>
                 </div>
             }
 
-            {!isActive &&
+            {!isActive && !hasWon &&
                 <div className={styles.startGame}>
-                    <Image src="/animals/moth.svg" className='border-4 border-white' alt="Profile image" height={135} width={135} />
+                    <div className={styles.image}>
+                    <Image src="/animals/moth.svg" alt="Profile image" height={135} width={135} />
+                    </div>
                     <h2>Oh look!</h2>
                     <p>You found a Golden Sun Moth! Collect it before it disappears!</p>
                     <button className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`} onClick={toggle}>
@@ -86,7 +98,7 @@ const CollectPage: React.FC = () => {
             }
 
 
-            {isFinished && <div>
+            {isFinished && !hasWon && <div className={styles.startGame}>
                 <h2>Try again!</h2>
                 <p>Don’t worry, there are lots of other animals and plants out there. Don’t forget to check your map!</p>
                 <button className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`} onClick={toggle}>
@@ -95,10 +107,19 @@ const CollectPage: React.FC = () => {
             </div>}
 
 
-            {hasWon && <div>
+            {hasWon && <div className={styles.startGame}>
                 <h2>Hooraaay!</h2>
                 <p>You got it! You just added a Golden Sun Moth hatchable to your collection.</p>
-
+                <Link href="/card/moth">
+                    <a>
+                        Learn
+                    </a>
+                </Link>
+                <Link href="/collection">
+                    <a>
+                        Collection
+                    </a>
+                </Link>
             </div>}
         </div>
     );
