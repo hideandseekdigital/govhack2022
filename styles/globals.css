@@ -20,8 +20,8 @@ a {
 }
 
 body {
-  margin: 18px auto;
-  width: 450px;
+  margin: 18px auto 4px;
+  width: 460px;
   background: url('../assets/frame.png') no-repeat center;
   background-size: contain;
   position: relative;
@@ -32,10 +32,10 @@ body {
   overflow: scroll;
   border-top-left-radius: 44px;
   border-top-right-radius: 44px;
-  border-bottom-left-radius: 52px;
-  border-bottom-right-radius: 52px;
-  left: 40px;
-  width: 368px;
+  border-bottom-left-radius: 76px;
+  border-bottom-right-radius: 76px;
+  left: 48px;
+  width: 365px;
   height: 800px;
   margin-right: 0;
 }
