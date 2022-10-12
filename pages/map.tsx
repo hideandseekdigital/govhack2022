@@ -7,7 +7,7 @@ const MapPage: React.FC = () => {
     <div>
       <div className={styles.loading}>loading...</div>
       <iframe
-        src="https://my.atlistmaps.com/map/63473e89-4241-42d7-aad4-415857cd5b45?share=true"
+        src="https://my.atlistmaps.com/map/585cdeba-ecfe-4bb9-a9fe-cc1c29b5c067?share=true"
         allow="geolocation"
         width="100%"
         height="700px"
